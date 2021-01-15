@@ -28,6 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Shopozon"
+    }
+  },
+  "defaultProject": "Shopozon",
+  "cli": {
+    "analytics": "b81f00c3-0a59-47a4-b0b8-a47f7b58d28f"
+  }
 }

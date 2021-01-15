@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-md-4" *ngFor="let item of product; let i=index">
+    <!-- <app-product-items
+    *ngFor="let item of product; let i=index"
+    [product]="item"
+    [index]="i"></app-product-items> -->
+    <app-product-items
+    [product]="item"
+    [index]="i"></app-product-items>
+  </div>
+</div>
+
